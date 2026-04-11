@@ -32,13 +32,24 @@ const Home = () => {
                 <span>KUMAR V</span>
               </motion.h1>
               
+              <motion.div
+                className="space-y-3"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.3 }}
+              >
+                <p className="text-xl sm:text-2xl md:text-3xl font-semibold text-primary">
+                  Data Scientist | AI/ML Engineer
+                </p>
+              </motion.div>
+
               <motion.p
-                className="text-lg sm:text-xl text-muted-foreground max-w-[90vw] sm:max-w-none"
+                className="text-base sm:text-lg text-muted-foreground max-w-[90vw] sm:max-w-none leading-relaxed"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4 }}
               >
-                Data Science & Analytics| AI/ML | DL & NLP | CV & RAG Systems | End-to-End AI Deployment| 
+                Data Scientist | AI/ML Engineer | NLP, CV & RAG Specialist | start-to-end AI Solutions
               </motion.p>
             </motion.div>
 
@@ -75,13 +86,26 @@ const Home = () => {
               
               <div className="space-y-4 text-sm sm:text-base text-muted-foreground leading-relaxed">
                 <p>
-                  Hi, I'm <span className="text-foreground font-semibold">Naveen Kumar V</span> — a Data Science engineer in the making.
+                  I am <span className="text-foreground font-semibold">Naveen Kumar V</span>, a Data Science Engineer with a strong foundation in designing and deploying 
+                  <span className="text-foreground font-semibold"> AI-driven solutions</span> to address complex, real-world challenges.
                 </p>
+
                 <p>
-                  I design and deploy <span className="text-foreground font-semibold">AI-powered solutions</span> that solve real-world problems at scale. From medical AI models and surveillance intelligence systems to fashion recommendation engines and RAG-based chatbots, I build systems that go beyond notebooks — into <span className="text-primary font-semibold">production</span>.
+                  My experience includes developing <span className="text-foreground font-semibold">medical AI models, surveillance intelligence systems, fashion recommendation engines,</span> and 
+                  <span className="text-foreground font-semibold"> RAG-based chatbots</span>, with a focus on delivering 
+                  <span className="text-primary font-semibold"> scalable, production-grade applications</span>.
                 </p>
+
                 <p>
-                  With expertise in <span className="text-foreground font-semibold">Machine Learning, Deep Learning, and  AWS cloud deployment, SAP BTP</span>, I focus on creating scalable, optimized, and business-ready AI pipelines.
+                  I possess expertise in <span className="text-foreground font-semibold">Machine Learning, Deep Learning, and cloud platforms (AWS, SAP)</span>, enabling me to build 
+                  robust, efficient, and <span className="text-foreground font-semibold">business-aligned data pipelines</span>. 
+                  My work emphasizes <span className="text-foreground font-semibold">model reliability, performance optimization,</span> and practical deployment.
+                </p>
+
+                <p>
+                  I am particularly interested in leveraging data science to drive 
+                  <span className="text-foreground font-semibold"> strategic decision-making and measurable business outcomes</span>, 
+                  while bridging the gap between analytical research and enterprise-level implementation.
                 </p>
               </div>
 
@@ -93,7 +117,7 @@ const Home = () => {
                   📊 Data-driven
                 </span>
                 <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium">
-                  🚀 Scalable
+                  🚀 Scalable Production-Ready AI
                 </span>
                 <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary/10 text-primary text-sm font-medium">
                   🎯 Impact-focused
@@ -131,10 +155,10 @@ const Home = () => {
 export default Home;
 
 const techStack = [
-  { category: "Languages & Core", items: "Python • R • SQL •Javascript" },
+  { category: "Languages & Core", items: "Python • R • SQL • Javascript" },
   { category: "ML & AI", items: "TensorFlow • PyTorch • Scikit-learn • OpenCV" },
   { category: "Web & API", items: "Flask • Streamlit • FastAPI" },
   { category: "Data & Visualization", items: "Pandas • NumPy • Matplotlib • Seaborn" },
-  { category: "Power BI & Visualization:", items: " Excel Dashboards • Dashboard Design•Storytelling• MIS Reporting" },
-  { category: "Cloud & Platforms:", items: "SAP BTP • AWS • Airflow • Power BI • Tableau" },
+  { category: "Power BI & Visualization", items: "Excel Dashboards • Dashboard Design • Storytelling • MIS Reporting" },
+  { category: "Cloud & Platforms", items: "SAP BTP • AWS • Airflow • Power BI • Tableau" },
 ];

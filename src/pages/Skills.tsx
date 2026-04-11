@@ -30,7 +30,7 @@ const experience = [
   },
   {
     role: "AI | Cloud | DevOps Engineer",
-    company: "Vibe Coding",
+    company: "Freelance (Remote)",
     focus: "Integrating cutting-edge AI solutions with robust cloud infrastructure and DevOps practices to deliver scalable, high-impact data-driven systems.",
   },
 ];
@@ -39,25 +39,25 @@ const skillCategories = [
   {
     icon: Code2,
     title: "Languages & Databases",
-    level: 90,
+    level: 70,
     description: "Python, JavaScript, R, SQL, PostgreSQL, MongoDB",
   },
   {
     icon: Cloud,
     title: "Cloud & DevOps",
-    level: 85,
+    level: 55,
     description: "AWS (EC2, S3), Docker, Kubernetes, CI/CD, Airflow",
   },
   {
     icon: Brain,
     title: "ML & AI Tools",
-    level: 80,
+    level: 60,
     description: "TensorFlow, PyTorch, Scikit-learn, OpenCV, NLP, Computer Vision",
   },
   {
     icon: Palette,
-    title: "Frontend & Vibe Coding",
-    level: 75,
+    title: "Frontend & Backend Coding",
+    level: 55,
     description: "React, Vite, Tailwind CSS, Flask, Streamlit",
   },
 ];
@@ -66,8 +66,8 @@ const technologiesData = [
   {
     category: "SAP BTP & HANA",
     skills: [
-      { name: "SAP HANA Database", level: 85 },
-      { name: "SQL (Joins, Views, Stored Procedures)", level: 88 },
+      { name: "SAP HANA Database", level: 60 },
+      { name: "SQL ", level: 70 },
       { name: "Calculation Views", level: 82 },
       { name: "Data Modeling", level: 85 },
       { name: "Performance Optimization", level: 80 },
@@ -77,27 +77,27 @@ const technologiesData = [
   {
     category: "Programming & Frameworks",
     skills: [
-      { name: "Python", level: 95, icon: "🐍" },
-      { name: "JavaScript", level: 88, icon: "⚡" },
-      { name: "R", level: 85, icon: "📊" },
-      { name: "SQL", level: 90, icon: "🗄️" },
+      { name: "Python", level: 75, icon: "🐍" },
+      { name: "JavaScript", level: 68, icon: "⚡" },
+      { name: "R", level: 65, icon: "📊" },
+      { name: "SQL", level: 70, icon: "🗄️" },
     ],
   },
   {
     category: "ML/DL & AI Techniques",
     skills: [
-      { name: "TensorFlow", level: 90 },
-      { name: "Scikit-learn", level: 92 },
-      { name: "Neural Networks & CNNs", level: 88 },
-      { name: "Transformers/GPT", level: 85 },
+      { name: "TensorFlow", level: 70 },
+      { name: "Scikit-learn", level: 72 },
+      { name: "Neural Networks & CNNs", level: 68 },
+      { name: "Transformers/GPT", level: 65 },
     ],
   },
   {
     category: "Data Tools & Visualization",
     skills: [
       { name: "Power BI/Tableau", level: 90 },
-      { name: "Pandas/NumPy", level: 95 },
-      { name: "Matplotlib/Seaborn", level: 92 },
+      { name: "Pandas/NumPy", level: 75 },
+      { name: "Matplotlib/Seaborn", level: 82 },
       { name: "PySpark/Airflow", level: 85 },
     ],
   },
@@ -106,8 +106,8 @@ const technologiesData = [
     skills: [
       { name: "Flask/Streamlit", level: 88 },
       { name: "AWS EC2/S3", level: 85 },
-      { name: "React/Vite", level: 90 },
-      { name: "Tailwind CSS", level: 92 },
+      { name: "React/Vite", level: 70 },
+      { name: "Tailwind CSS", level: 72 },
     ],
   },
 ];
