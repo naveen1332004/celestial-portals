@@ -120,7 +120,7 @@ const languagesCore = [
 ];
 
 const handleDownloadResume = () => {
-  window.open('https://drive.google.com/file/d/1RWEY_LX4MLf4BCGMr-rh5nzNLfqBKr2M/view?usp=sharing', '_blank');
+  window.open('https://drive.google.com/file/d/16Cclq4fUL3mpcwouC8Vs-Lw7CRrv_v8s/view', '_blank');
 };
 
 const Skills = () => {
