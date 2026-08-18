@@ -4,6 +4,21 @@ import { ExternalLink, Github } from "lucide-react";
 
 const workExperience = [
   {
+    role: "Data Analyst",
+    company: "DD Royal LLC",
+    location: "Remote",
+    period: "Aug 2024 - Present",
+    type: "Full-time",
+    achievements: [
+      "Analysed 100K+ purchase records using Python and SQL to support pricing and product recommendation analysis.",
+      "Developed automated data cleaning and preprocessing pipelines to improve data quality and model-training efficiency.",
+      "Performed customer behaviour and transaction analysis to identify patterns and potential fraud indicators.",
+      "Built data-driven ad ranking and engagement analysis to support optimization of user interactions.",
+      "Created reports and visualizations to communicate insights and support data-driven decision-making.",
+    ],
+    skills: ["Python", "SQL", "Pandas", "AWS", "Data Analysis", "Data Cleaning", "Statistical Analysis", "Machine Learning"],
+  },
+  {
     role: "SAP BTP & HANA Intern (Data Analyst & Software Development)",
     company: "Ladera Technology Pvt. Ltd (Offline)",
     location: "Bengaluru",
@@ -36,17 +51,6 @@ const workExperience = [
       "Facilitated training sessions, project coordination, and stakeholder communication for student participants",
       "Supported curriculum implementation and ensured smooth delivery of AI/ML learning modules",
       "Recognized for effective team management and organizational skills in handling multiple project workflows",
-    ],
-  },
-  {
-    role: "Frontend Developer Intern",
-    company: "Vibe Coding",
-    location: "Remote",
-    period: "June 2024 – August 2024",
-    achievements: [
-      "Built and deployed responsive web interfaces using React, Vite, and Tailwind CSS",
-      "Collaborated with a team of 5 developers to create an interactive learning portal",
-      "Improved site performance by 30% through optimized bundling and lazy loading",
     ],
   },
 ];
