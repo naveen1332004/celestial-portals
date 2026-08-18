@@ -29,7 +29,7 @@ const EMAIL_CONFIG = {
   TEMPLATE_ID: "template_5wwhwag",
   PUBLIC_KEY: "ZoZ1SBPDe8inzgWUQ",
   TO_EMAIL: "naveen20thkids@gmail.com",
-  RESUME_LINK: "https://drive.google.com/file/d/16Cclq4fUL3mpcwouC8Vs-Lw7CRrv_v8s/view"
+  RESUME_LINK: "https://drive.google.com/file/d/1Y2MDzzoKyDBdgGEjzNdJ_XyjdSLlsT1t/view?usp=sharing"
 } as const;
 
 const contactDetails = [
