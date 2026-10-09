@@ -24,14 +24,51 @@ const education = [
 
 const experience = [
   {
-    role: "SAP BTP & HANA Intern (Data Analyst & Software Development)",
-    company: "Ladera Technology Pvt. Ltd (Offline) Bengaluru ",
-    focus: "Performed data analysis and reporting tasks using SAP BTP and related tools. Assisted in building and testing data-driven applications on cloud platforms. Analyzed business data to support decision-making and process optimization.",
+    role: "Software Developer",
+    company: "My Entreo Inc. (Entreo App) — USA | Remote | Full-time",
+    dates: "Oct 2026 – Present",
+    focus:
+      "Develop and enhance features for the Entreo App, a delivery-focused application.",
+    responsibilities: [
+      "Build and integrate REST APIs for application and backend communication.",
+      "Develop backend services using Java, Spring Boot, MySQL, JPA/Hibernate, and Maven.",
+      "Test, debug, and validate APIs using Postman.",
+      "Troubleshoot issues to improve application functionality.",
+      "Support development and deployment workflows using Docker and AWS.",
+    ],
   },
   {
-    role: "AI | Cloud | DevOps Engineer",
-    company: "Freelance (Remote)",
-    focus: "Integrating cutting-edge AI solutions with robust cloud infrastructure and DevOps practices to deliver scalable, high-impact data-driven systems.",
+    role: "Data Analyst",
+    company:
+      "DD Royal LLC — Tata Consultancy Services Project: Macy’s Online",
+    dates: "Aug 2024 – Sep 2026 | USA | Remote | Full-time",
+    focus:
+      "Analyzed e-commerce data and developed reporting, automation, and AI/ML solutions.",
+    responsibilities: [
+      "Analyzed 100K+ purchase records using SQL and Python.",
+      "Improved decision-making speed by 25% by streamlining five critical business reports.",
+      "Achieved 95% reporting accuracy through data cleaning and validation.",
+      "Detected 15+ critical data anomalies weekly through trend analysis.",
+      "Used Python, Pandas, SQL, AWS, SAP, SAP HANA, Docker, and machine learning.",
+      "Developed an AI/ML video analysis pipeline, improving processing throughput by 30%.",
+      "Collaborated with cross-functional teams on reliable e-commerce application releases.",
+    ],
+  },
+  {
+    role: "SAP Data Analyst",
+    company: "Ladera Technology — Bengaluru, Karnataka",
+    dates: "Dec 2025 – Jul 2026",
+    focus:
+      "Performed SAP-based data analysis, validation, reporting, and cloud application support.",
+    responsibilities: [
+      "Performed data analysis, validation, and reporting using SAP BTP and SAP HANA.",
+      "Cleaned, transformed, and validated business data.",
+      "Created analytical reports and dashboards for business teams.",
+      "Analyzed trends and patterns to improve operational efficiency.",
+      "Assisted in developing and testing cloud-based applications on SAP BTP.",
+      "Collaborated with teams to troubleshoot data issues and support application testing.",
+      "Used SAP BTP, SAP HANA, and SQL.",
+    ],
   },
 ];
 
