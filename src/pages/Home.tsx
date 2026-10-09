@@ -49,7 +49,7 @@ const Home = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4 }}
               >
-                Data Scientist | AI/ML Engineer | NLP, CV & RAG Specialist | start-to-end AI Solutions
+               Data Scientist | AI/ML Engineer | NLP, Computer Vision & RAG | Python, SQL, Machine Learning | End-to-End AI Solutions
               </motion.p>
             </motion.div>
 
