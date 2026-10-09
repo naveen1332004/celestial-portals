@@ -29,7 +29,7 @@ const Home = () => {
                 <span className="gradient-text">NAVEEN</span>
                 <br className="hidden sm:block" />
                 <span className="gradient-text sm:hidden">-</span>
-                <span>KUMAR V</span>
+                <span>V</span>
               </motion.h1>
               
               <motion.div
